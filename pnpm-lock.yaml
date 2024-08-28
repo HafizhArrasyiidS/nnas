@@ -17,6 +17,9 @@ importers:
 
   .:
     dependencies:
+      '@contentful/rich-text-react-renderer':
+        specifier: ^15.22.10
+        version: 15.22.10(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@next/font':
         specifier: ^13.5.4
         version: 13.5.4
@@ -121,6 +124,17 @@ packages:
   '@babel/runtime@7.23.1':
     resolution: {integrity: sha512-hC2v6p8ZSI/W0HUzh3V8C5g+NwSKzKPtJwSpTjwl0o297GP9+ZLQSkdvHz46CM3LqyoXxq+5G9komY+eSqSO0g==}
     engines: {node: '>=6.9.0'}
+
+  '@contentful/rich-text-react-renderer@15.22.10':
+    resolution: {integrity: sha512-GgVpyRO9+ZEsZHgiK/0gWdmo6RPuNUG1LFkO1Xz/SDNtcnqQNX4Yd1Y7Wa4P2wB5XyiDp2yxGk6DvgURnm4v+g==}
+    engines: {node: '>=6.0.0'}
+    peerDependencies:
+      react: ^16.8.6 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.6 || ^17.0.0 || ^18.0.0
+
+  '@contentful/rich-text-types@16.8.4':
+    resolution: {integrity: sha512-EZ9438DQS+bU8N39qjT1c3TqadP3F71tXJeMKOqYzQetvpP5U9iHEF1jl5RB+0fWfvI6xHiHsiUOWCqC9bR39A==}
+    engines: {node: '>=6.0.0'}
 
   '@contentlayer/cli@0.3.4':
     resolution: {integrity: sha512-vNDwgLuhYNu+m70NZ3XK9kexKNguuxPXg7Yvzj3B34cEilQjjzSrcTY/i+AIQm9V7uT5GGshx9ukzPf+SmoszQ==}
@@ -1966,6 +1980,14 @@ snapshots:
   '@babel/runtime@7.23.1':
     dependencies:
       regenerator-runtime: 0.14.0
+
+  '@contentful/rich-text-react-renderer@15.22.10(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+    dependencies:
+      '@contentful/rich-text-types': 16.8.4
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+
+  '@contentful/rich-text-types@16.8.4': {}
 
   '@contentlayer/cli@0.3.4(esbuild@0.19.4)(markdown-wasm@1.2.0)':
     dependencies:
