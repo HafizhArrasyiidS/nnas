@@ -15,6 +15,12 @@ const projectData = [
         imgSrc: "/images/ar.png", // Assuming the image is located in public/images
         link: "#"
     },
+    {
+        title: "Atapu Store",
+        description: "This project is an online game diamond buying and selling website or a platform for buying game diamonds such as Free Fire and Mobile Legends quickly and safely.",
+        imgSrc: "/images/atapu.png", // Assuming the image is located in public/images
+        link: "#"
+    },
     // Add more projects as needed
 ];
 
