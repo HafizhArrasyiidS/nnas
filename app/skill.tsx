@@ -17,18 +17,18 @@ const skillImg = [
 
 const Skills = () => {
     return (
-        <div className='text-white w-[400px] md:min-w-[950px] mx-auto p-8 text-center animate-fade-in mt-20'>
-            <h2 className='text-6xl font-bold mb-4'>Framework That I Use</h2>
-            <p className='text-sm mb-6 text-zinc-500'>
+        <div className='text-white w-[90%] sm:w-[400px] md:min-w-[950px] mx-auto p-4 sm:p-8 text-center animate-fade-in mt-10 sm:mt-20'>
+            <h2 className='text-6xl sm:text-6xl md:text-6xl font-bold mb-4'>Framework That I Use</h2>
+            <p className='text-xs sm:text-sm md:text-base mb-4 sm:mb-6 text-zinc-500'>
                 I use some of the frameworks below for productivity purposes or small projects.
             </p>
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-6'>
+            <div className='flex flex-wrap justify-center gap-4 sm:gap-6'>
                 {skillImg.map((skill, index) => (
                     <div
                         key={index}
-                        className='h-[170px] w-[150px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-4 rounded-xl '>
-                        <img src={skill.imgSrc} alt={skill.name} className='h-40 w-40 object-cover' />
-                        <p className='mt-0'>{skill.name}</p>
+                        className='h-[100px] w-[100px] sm:h-[150px] sm:w-[150px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-2 sm:p-4 rounded-xl'>
+                        <img src={skill.imgSrc} alt={skill.name} className='h-16 w-16 sm:h-32 sm:w-32 md:h-40 md:w-40 object-cover' />
+                        <p className='text-xs sm:text-sm md:text-base mt-2'>{skill.name}</p>
                     </div>
                 ))}
             </div>
