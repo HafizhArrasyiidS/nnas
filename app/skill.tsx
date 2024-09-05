@@ -26,7 +26,7 @@ const Skills = () => {
                 {skillImg.map((skill, index) => (
                     <div
                         key={index}
-                        className='h-[100px] w-[100px] sm:h-[150px] sm:w-[150px] md:h-[220px] md:w-[220px] flex flex-col justify-between items-center bg-white/10 p-2 sm:p-4 rounded-xl'>
+                        className='h-[100px] w-[100px] sm:h-[150px] sm:w-[150px] md:h-[250px] md:w-[200px] flex flex-col justify-between items-center bg-white/10 p-2 sm:p-4 rounded-xl'>
                         <img src={skill.imgSrc} alt={skill.name} className='h-16 w-16 sm:h-32 sm:w-32 md:h-40 md:w-40 object-cover' />
                         <p className='text-xs sm:text-sm md:text-base mt-2'>{skill.name}</p>
                     </div>
