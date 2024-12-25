@@ -11,7 +11,9 @@ const MyMain = () => {
             <div className="flex flex-col items-center gap-8 md:flex-row md:gap-16">
                 <div className="flex flex-col md:flex-row items-center text-center md:text-left px-4 md:px-48 gap-8">
                     <div className="flex flex-col items-start">
-                        <h3 className="text-6xl text-white font-bold">My Main Programming Language</h3>
+                        <h3 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white font-bold">
+                            My Main Programming Language
+                        </h3>
                         <p className="mt-4 text-sm text-zinc-500">
                             Why do I use these two languages? Because I chose the profession as a mobile app developer and web developer, the languages I use are Dart and Javascript.
                         </p>
