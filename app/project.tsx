@@ -21,6 +21,12 @@ const projectData = [
         imgSrc: "/images/atapu.png", // Assuming the image is located in public/images
         link: "#"
     },
+    {
+        title: "Asset Track",
+        description: "AssetTrack offers a complete solution for managing your assets. From tracking to reports, all in one application! Swipe to see superior features.",
+        imgSrc: "/images/assettrack.png", // Assuming the image is located in public/images
+        link: "#"
+    },
     // Add more projects as needed
 ];
 
@@ -45,7 +51,7 @@ const ProjectsSection: React.FC = () => {
         <div className="bg-[#0d0d0d] text-white py-12 mt-32 animate-fade-in">
             <div className="container mx-auto px-4">
                 <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center mb-4">
-                    Some of the Projects that I have made
+                Several Projects That I Have Worked On
                 </h2>
                 <p className="text-center text-gray-400 mb-12">
                     The following are several projects that I have done to train my skills and fill my productive time.
