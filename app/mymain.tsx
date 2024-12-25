@@ -10,9 +10,11 @@ const MyMain = () => {
         <section className="my-16 animate-fade-in">
             <div className="flex flex-col items-center gap-8 md:flex-row md:gap-16">
                 <div className="flex flex-col md:flex-row items-center text-center md:text-left px-4 md:px-48 gap-8">
-                    <div className="flex flex-col items-start">
-                    <h2 className="text-white text-6xl font-bold mb-4">My Main Programming Language</h2>
-                        <p className="mt-4 text-sm text-zinc-500">
+                    <div className="flex flex-col items-start px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-white text-5xl sm:text-6xl md:text-7xl font-bold mb-4">
+                            My Main Programming Languages
+                        </h2>
+                        <p className="mt-4 text-base sm:text-lg md:text-xl text-zinc-500">
                             Why do I use these two languages? Because I chose the profession as a mobile app developer and web developer, the languages I use are Dart and Javascript.
                         </p>
                     </div>
