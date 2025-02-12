@@ -44,7 +44,7 @@ export default function Home() {
 
       <div className="mt-32 mb-20 text-center animate-fade-in">
         <div className="text-sm text-zinc-500">
-          <p>I am Hafizh Arrasyiid Syahbana, a Junior Mobile App Developer.</p>
+          <p>I am Hafizh Arrasyiid Syahbana, a Mobile App Developer.</p>
           <p>I am currently studying at SMKN 1 Bangil Class XII PPLG, and I like pineapple.</p>
           <Link
             target="_blank"
